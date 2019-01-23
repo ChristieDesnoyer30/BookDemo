@@ -1,12 +1,21 @@
 package com.company;
+import java.util.ArrayList;
 
-public class Library {
+public class Library extends Book{
 
-    private Book[] book;
+    private ArrayList<Book> book;
 
-    private int numberOfBooksInLibrary(){
+    public ArrayList<Book> getBook() {
+        return book;
+    }
 
-        return book.length;
+    public void setBook(ArrayList<Book> book) {
+        this.book = book;
+    }
+
+    public void numberOfBooksInLibrary(ArrayList<Book> book){
+
+        System.out.println("There are " + book.size() + " book(s) in the library");
     }
 
 

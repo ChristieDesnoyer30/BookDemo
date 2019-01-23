@@ -7,6 +7,16 @@ public class Book {
    private int numberOfPages;
    private int yearPublished;
 
+   public Book(String title, String author, int numberOfPages, int yearPublished) {
+      this.title = title;
+      this.author = author;
+      this.numberOfPages = numberOfPages;
+      this.yearPublished = yearPublished;
+   }
+
+   public Book() {
+   }
+
    public String getTitle() {
       return title;
    }
