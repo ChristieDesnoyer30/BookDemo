@@ -53,7 +53,10 @@ public class Book {
    public void printBook(){
 
       System.out.println("The title of the book is " + title + ", the author is "+  author
-              + "the number of pages is "+ numberOfPages + ", the year it was published is " + yearPublished);
+              + ", the number of pages is "+ numberOfPages + ", the year it was published is " + yearPublished);
 
    }
+
+
+
 }
