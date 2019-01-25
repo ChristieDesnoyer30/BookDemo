@@ -27,7 +27,7 @@ public class BookDemo {
 		String userContinue;
 		Librarian myLibrarian = new Librarian();
 		Library library = new Library();
-		Book b = new Book();
+	
 
 
 		library.addBooks(new Book("Becoming", "Michelle Obama", 400, 2018));
@@ -36,6 +36,7 @@ public class BookDemo {
 
 
 		do {
+
 
 			myLibrarian.welcomeToLibrary();
 
@@ -55,7 +56,7 @@ public class BookDemo {
 				case 2:
 
 
-                    b = myLibrarian.collectingBookData();
+                    Book b = myLibrarian.collectingBookData();
 
 					library.addBooks(b);
 
