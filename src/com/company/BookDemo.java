@@ -25,6 +25,7 @@ public class BookDemo {
 
 		Scanner scan = new Scanner(System.in);
 		String userContinue;
+		Librarian librarian = new Librarian();
 		Library library = new Library();
 		Book b = new Book();
 
@@ -35,8 +36,8 @@ public class BookDemo {
 
 
 		do {
-			System.out.println("Welcome to the library \nSelect 1 - To see how many books are in the library. " +
-					"\nSelect 2 - To add a book to your library. \nSelect 3 - To search for a book. \nSelect 4 - To delete a book. \nSelect 5 - To update a books information. \nSelect 6 - To exit the library. ");
+
+			librarian.welcomeToLibrary();
 
 			int userChoice = scan.nextInt();
 
@@ -53,33 +54,8 @@ public class BookDemo {
 
 				case 2:
 
-					System.out.println("What is the Title?");
 
-					scan.nextLine();
-
-					String bookTitle = scan.nextLine();
-
-					b.setTitle(bookTitle);
-
-					System.out.println("Who is the author?");
-
-					String bookAuthor = scan.nextLine();
-
-					b.setAuthor(bookAuthor);
-
-
-					System.out.println("How many pages?");
-
-					int bookPages = scan.nextInt();
-
-					b.setNumberOfPages(bookPages);
-
-					System.out.println("When was it published?");
-
-					int bookPublish = scan.nextInt();
-
-					b.setYearPublished(bookPublish);
-
+                    b = librarian.collectingBookData();
 
 					library.addBooks(b);
 
@@ -91,11 +67,8 @@ public class BookDemo {
 
 				case 3:
 
-					System.out.println("What book are you looking for?");
 
-					scan.nextLine();
-
-					String title = scan.nextLine();
+                    String title = librarian.searchForBooks();
 
 					library.searchBook(title);
 
@@ -103,11 +76,7 @@ public class BookDemo {
 
 				case 4 :
 
-					library.printLibrary();
-
-					System.out.println("What book would you like to delete?");
-
-					int option = scan.nextInt();
+				    int option = librarian.promptForDeletion();
 
 					library.deleteBookFromLibrary(option);
 
