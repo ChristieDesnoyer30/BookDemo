@@ -23,7 +23,6 @@ public class Librarian {
 
         System.out.println("What is the Title?");
 
-
         String bookTitle = scan.nextLine();
 
         book.setTitle(bookTitle);
@@ -58,8 +57,6 @@ public class Librarian {
 
         System.out.println("What book are you looking for?");
 
-        scan.nextLine();
-
         String title = scan.nextLine();
 
 
@@ -68,7 +65,7 @@ public class Librarian {
 
     public int promptForDeletion(){
         Library library = new Library();
-        
+
         Scanner scan = new Scanner(System.in);
 
         library.printLibrary();

@@ -76,6 +76,9 @@ public class BookDemo {
 
 				case 4 :
 
+
+				    library.printLibrary();
+
 				    int option = librarian.promptForDeletion();
 
 					library.deleteBookFromLibrary(option);
@@ -93,12 +96,20 @@ public class BookDemo {
 					System.out.println("Thank you for visiting the library");
 					break;
 
-			}
+                default:
+                    System.out.println("Not a valid option.");
+
+
+            }
 
 		System.out.println("Would you like to continue? Y for yes, N for no.");
 
 			userContinue = scan.next();
 
 		}while (userContinue.equals("y"));
+
+        System.out.println("Thank you for visiting the library");
 	}
+
+
 }
