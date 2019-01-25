@@ -25,7 +25,7 @@ public class BookDemo {
 
 		Scanner scan = new Scanner(System.in);
 		String userContinue;
-		Librarian librarian = new Librarian();
+		Librarian myLibrarian = new Librarian();
 		Library library = new Library();
 		Book b = new Book();
 
@@ -37,7 +37,7 @@ public class BookDemo {
 
 		do {
 
-			librarian.welcomeToLibrary();
+			myLibrarian.welcomeToLibrary();
 
 			int userChoice = scan.nextInt();
 
@@ -55,7 +55,7 @@ public class BookDemo {
 				case 2:
 
 
-                    b = librarian.collectingBookData();
+                    b = myLibrarian.collectingBookData();
 
 					library.addBooks(b);
 
@@ -68,7 +68,7 @@ public class BookDemo {
 				case 3:
 
 
-                    String title = librarian.searchForBooks();
+                    String title = myLibrarian.searchForBooks();
 
 					library.searchBook(title);
 
@@ -79,7 +79,7 @@ public class BookDemo {
 
 				    library.printLibrary();
 
-				    int option = librarian.promptForDeletion();
+				    int option = myLibrarian.promptForDeletion();
 
 					library.deleteBookFromLibrary(option);
 

@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="262a0cc4-ca91-436c-a121-1b98fd863b5d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BookDemo/com/company/BookDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookDemo/com/company/BookDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BookDemo/com/company/Librarian.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookDemo/com/company/Librarian.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BookDemo/com/company/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookDemo/com/company/Library.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/BookDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/BookDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Librarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Librarian.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/BookDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="79" column="20" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
+            <state relative-caret-position="194">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,7 +49,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Librarian.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-57">
+            <state relative-caret-position="867">
               <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
             </state>
           </provider>
@@ -123,7 +118,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548446468524" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548447961878" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -165,15 +160,16 @@
       <updated>1548268423989</updated>
       <workItem from="1548268427655" duration="5645000" />
       <workItem from="1548354351473" duration="10094000" />
-      <workItem from="1548439771455" duration="3597000" />
+      <workItem from="1548439771455" duration="4186000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19336000" />
+    <option name="totallyTimeSpent" value="19925000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21316166" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -217,13 +213,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Librarian.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Library.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
@@ -234,10 +223,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Librarian.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/BookDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="79" column="20" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
+        <state relative-caret-position="194">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
