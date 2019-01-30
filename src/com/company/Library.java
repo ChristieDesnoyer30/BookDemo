@@ -44,12 +44,17 @@ public class Library extends Book{
 
     public void searchBook(String title){
 
+
         for(int i = 0; i < books.size(); i++){
 
             if (title.equalsIgnoreCase(books.get(i).getTitle())){
 
                 System.out.println("There is a match in the library");
+                break;
 
+            }else {
+                System.out.println( "That book does not exist in the library");
+                break;
             }
 
         }
